@@ -103,9 +103,9 @@ open_to:
     <td width="50%" valign="top">
       <h3>🎓 SkillNest LMS</h3>
       <p><b>React · Node.js · Express · MongoDB</b></p>
-      <p>Full-stack Learning Management System featuring role-based dashboards for students, instructors & admins with course creation and enrollment systems.</p>
+      <p>SkillNest LMS is a modern full-stack Learning Management System built with the MERN stack and glassmorphism styling. Features role-based access for Students, Instructors, and Admins with course management, interactive quizzes, projects, analytics, and reviews.</p>
       <p>
-        <a href="https://github.com/umersmx/lms-project">
+        <a href="https://github.com/umersmx/SKillNest-lms">
           <img src="https://img.shields.io/badge/Source%20Code-View-ffffff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
         </a>
       </p>
@@ -124,8 +124,8 @@ open_to:
   <tr>
     <td colspan="2" align="center" valign="top">
       <h3>🏋️ The AI Gym Bro</h3>
-      <p><b>Python · OpenCV · Flask</b></p>
-      <p>Computer Vision web app engineered for real-time exercise posture tracking and dynamic workout form feedback.</p>
+      <p><b>React · MediaPipe · Python · OpenCV</b></p>
+      <p>AI Gym Bro is a real-time AI fitness & workout tracking web app built with React, Vite, and MediaPipe Pose Landmarker. It analyzes body posture live through your webcam, accurately counts exercise repetitions (squats, bicep curls, pushups), evaluates form accuracy, and provides instant audio-visual feedback.</p>
       <p>
         <a href="https://github.com/umersmx/ai-gym-bro-web">
           <img src="https://img.shields.io/badge/Source%20Code-View-ffffff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
@@ -151,8 +151,8 @@ open_to:
   <a href="https://github.com/umersmx/thrift-store">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=thrift-store&theme=react&hide_border=true&bg_color=0d1117" />
   </a>
-  <a href="https://github.com/umersmx/lms-project">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=lms-project&theme=react&hide_border=true&bg_color=0d1117" />
+  <a href="https://github.com/umersmx/SKillNest-lms">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=SKillNest-lms&theme=react&hide_border=true&bg_color=0d1117" />
   </a>
 </p>
 <p align="center">
