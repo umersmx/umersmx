@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Umer%20Farooq&fontSize=42&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Developer%20%7C%20MERN%20Stack%20%7C%20Academic%20Leader&descAlignY=62&descSize=15&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=Muhammad%20Umer%20Farooq&fontSize=38&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Developer%20%7C%20MERN%20Stack%20%7C%20Academic%20Leader&descAlignY=62&descSize=15&descAlign=50" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=00C9FF&center=true&vCenter=true&width=650&lines=Full-Stack+MERN+Developer+%F0%9F%9A%80;BSCS+Student+%40+Superior+University+%F0%9F%8E%93;Academic+Group+Leader+%F0%9F%A4%9D;Building+AI+%26+Full-Stack+Apps+%F0%9F%94%A5;Open+for+collaborations+%26+roles+%E2%9C%85" alt="Typing SVG" />
@@ -38,7 +38,7 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-name: Umer Farooq
+name: Muhammad Umer Farooq
 role: Full-Stack Developer | MERN Stack | Academic Leader
 location: Lahore, Pakistan
 
@@ -195,26 +195,6 @@ open_to:
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=umersmx&theme=github_dark" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=umersmx&theme=github_dark&utcOffset=5" />
-</p>
-
----
-
-## 📈 3D Contribution Graph
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" />
-</p>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/umersmx/umersmx/output/github-snake.svg" />
-  </picture>
 </p>
 
 ---
