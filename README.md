@@ -24,7 +24,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=umersmx&label=Profile+Views&color=00c9ff&style=for-the-badge&labelColor=0d1117" />
+  <a href="https://hits.sh/github.com/umersmx/">
+    <img src="https://hits.sh/github.com/umersmx.svg?style=for-the-badge&label=Profile+Visitors&color=00c9ff&labelColor=0d1117&logo=github" alt="Profile Visitors" />
+  </a>
   <img src="https://img.shields.io/github/followers/umersmx?label=Followers&style=for-the-badge&color=00c9ff&labelColor=0d1117" />
   <a href="https://github.com/umersmx">
     <img src="https://img.shields.io/badge/GitHub-Pro-black?style=for-the-badge&logo=github" />
