@@ -52,33 +52,31 @@
 
 ## ⚡ About Me
 
-```typescript
-const developer: DeveloperProfile = {
-  name: "Muhammad Umer Farooq",
-  role: "Full-Stack MERN Developer & Academic Group Leader",
-  location: "Lahore, Pakistan 📍",
-  education: {
-    degree: "BSc Computer Science",
-    institution: "Superior University, Lahore",
-    status: "Semester 5 (Active Project & Group Lead 🎓)",
-  },
-  stack: {
-    primary: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    languages: ["JavaScript (ES6+)", "Python", "C++", "SQL", "PHP"],
-    ai_vision: ["MediaPipe Pose Landmarker", "OpenCV", "Generative AI APIs"],
-    tools: ["Git", "GitHub", "Vite", "Firebase", "Railway", "VS Code"],
-  },
-  mission: [
-    "Engineering high-performance, responsive full-stack web applications",
-    "Integrating cutting-edge AI and browser-based computer vision",
-    "Leading collaborative developer teams with clean architectural patterns",
-  ],
-  availableFor: [
-    "Full-Stack / MERN Developer Internships & Junior Roles",
-    "Freelance Full-Stack & AI Web Applications",
-    "Open-Source Initiatives & Hackathons",
-  ],
-};
+```bash
+╭─ 🔴 🟡 🟢 ──────────────────────────────────────────────────────────── umer@smx-dev: ~ ─╮
+│                                                                                        │
+│  $ whoami                                                                              │
+│  > Muhammad Umer Farooq                                                                │
+│  > Full-Stack MERN Developer & Academic Group Leader                                   │
+│                                                                                        │
+│  $ cat system/profile.json                                                             │
+│  {                                                                                     │
+│    "location": "Lahore, Pakistan 📍",                                                  │
+│    "education": "BSc Computer Science @ Superior University (Semester 5 🎓)",           │
+│    "leadership": "Academic Group & Technical Team Lead",                               │
+│    "primaryStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],   │
+│    "aiAndVision": ["MediaPipe Pose Landmarker", "OpenCV", "Generative AI APIs"],       │
+│    "openFor": [                                                                        │
+│      "Full-Stack / MERN Developer Roles & Internships",                                │
+│      "Freelance Full-Stack & AI Web Applications",                                     │
+│      "Open-Source Collaborations & Hackathons"                                         │
+│    ]                                                                                   │
+│  }                                                                                     │
+│                                                                                        │
+│  $ echo $STATUS                                                                        │
+│  > 🟢 Ready to build, collaborate & engineer high-impact scalable systems!              │
+│                                                                                        │
+╰────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 ---
