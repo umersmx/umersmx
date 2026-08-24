@@ -1,39 +1,52 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:161b22,70:1f293d,100:00c9ff&height=180&section=header&text=Muhammad%20Umer%20Farooq&fontSize=42&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Developer%20%7C%20MERN%20Ecosystem%20%7C%20AI%20%26%20Computer%20Vision%20%7C%20Tech%20Lead&descAlignY=62&descSize=15&descAlign=50" alt="Header Banner" />
-
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00C9FF&center=true&vCenter=true&width=650&lines=Full-Stack+MERN+Developer+%F0%9F%9A%80;BSCS+%40+Superior+University+%F0%9F%8E%93;Academic+Group+%26+Tech+Lead+%F0%9F%A4%9D;Building+AI+%2B+Real-Time+CV+Apps+%F0%9F%94%A5;Open+for+Collaborations+%26+Roles+%E2%9C%85" alt="Typing SVG" />
-  </a>
-
-  <p>
-    <img src="https://img.shields.io/badge/Status-Open%20to%20Full--Stack%20%2F%20MERN%20Developer%20Roles-22c55e?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0d1117" alt="Status" />
-  </p>
-
-  <p>
-    <a href="https://linkedin.com/in/umersmx" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
-    </a>&nbsp;
-    <a href="https://umersmx.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-00c9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio" />
-    </a>&nbsp;
-    <a href="mailto:umersmx@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Gmail" />
-    </a>&nbsp;
-    <a href="https://github.com/umersmx">
-      <img src="https://img.shields.io/badge/GitHub-Follow%20%40umersmx-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
-    </a>
-  </p>
-
-  <p>
-    <a href="https://hits.sh/github.com/umersmx/">
-      <img src="https://hits.sh/github.com/umersmx.svg?style=for-the-badge&label=Profile+Views&color=00c9ff&labelColor=0d1117&logo=github" alt="Profile Views" />
-    </a>&nbsp;
-    <img src="https://img.shields.io/github/followers/umersmx?label=Followers&style=for-the-badge&color=00c9ff&labelColor=0d1117" alt="Followers" />&nbsp;
-    <a href="https://github.com/umersmx">
-      <img src="https://img.shields.io/badge/GitHub-Pro%20Developer-black?style=for-the-badge&logo=github&logoColor=00c9ff&labelColor=0d1117" alt="GitHub Pro" />
-    </a>
-  </p>
+  <img width="100%" src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/header.svg" alt="Muhammad Umer Farooq Header Banner" />
 </div>
+
+<br />
+
+<table align="center" width="100%">
+  <tr>
+    <td width="32%" align="center" valign="middle">
+      <a href="https://umersmx.vercel.app/" target="_blank">
+        <img src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/portrait.svg" width="210" alt="Muhammad Umer Farooq Dot-Matrix Portrait" />
+      </a>
+    </td>
+    <td width="68%" valign="middle">
+      <h3>👋 Hello, World! I'm <span style="color:#00C9FF;">Muhammad Umer Farooq</span></h3>
+      <p>
+        <a href="https://readme-typing-svg.demolab.com">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00C9FF&width=480&lines=Full-Stack+MERN+Developer+%F0%9F%9A%80;BSCS+%40+Superior+University+%F0%9F%8E%93;Academic+Group+%26+Tech+Lead+%F0%9F%A4%9D;Building+AI+%2B+Real-Time+CV+Apps+%F0%9F%94%A5;Open+for+Collaborations+%26+Roles+%E2%9C%85" alt="Typing SVG" />
+        </a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Status-Open%20to%20Full--Stack%20%2F%20MERN%20Roles-22c55e?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0d1117" alt="Status" />
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/umersmx" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
+        </a>&nbsp;
+        <a href="https://umersmx.vercel.app/" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-00c9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio" />
+        </a>&nbsp;
+        <a href="mailto:umersmx@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Gmail" />
+        </a>&nbsp;
+        <a href="https://github.com/umersmx">
+          <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" />
+        </a>
+      </p>
+      <p>
+        <a href="https://hits.sh/github.com/umersmx/">
+          <img src="https://hits.sh/github.com/umersmx.svg?style=flat-square&label=Profile+Views&color=00c9ff&labelColor=0d1117&logo=github" alt="Profile Views" />
+        </a>&nbsp;
+        <img src="https://img.shields.io/github/followers/umersmx?label=Followers&style=flat-square&color=00c9ff&labelColor=0d1117" alt="Followers" />&nbsp;
+        <a href="https://github.com/umersmx">
+          <img src="https://img.shields.io/badge/GitHub-Pro%20Developer-black?style=flat-square&logo=github&logoColor=00c9ff&labelColor=0d1117" alt="GitHub Pro" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -277,4 +290,6 @@ I am actively open to **Full-Stack / MERN Developer internships, junior engineer
 
 <br />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9ff,30:1f293d,70:161b22,100:0d1117&height=120&section=footer" alt="Footer Banner" />
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/footer.svg" alt="Footer Banner" />
+</div>

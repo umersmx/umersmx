@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="35%" stop-color="#0f172a" />
+      <stop offset="70%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#00c9ff" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Wave Gradient 1 -->
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9ff" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Wave Gradient 2 -->
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Text Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0, 201, 255, 0.07)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .accent-text {
+      fill: #00c9ff;
+    }
+    .desc-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      fill: #94a3b8;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: 'Fira Code', monospace;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #00c9ff;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="220" fill="url(#bgGrad)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="220" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="150" cy="50" r="120" fill="#00c9ff" opacity="0.12" filter="blur(30px)" />
+  <circle cx="1050" cy="80" r="140" fill="#818cf8" opacity="0.15" filter="blur(40px)" />
+
+  <!-- Decorative Top Bar -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#wave1)" />
+
+  <!-- Header Content -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    <!-- Main Name Title -->
+    <text class="title-text" y="0" filter="url(#glow)">
+      Muhammad Umer <tspan class="accent-text">Farooq</tspan>
+    </text>
+
+    <!-- Subtitle / Roles -->
+    <text class="desc-text" y="38">
+      Full-Stack Developer  •  MERN Stack  •  AI &amp; Computer Vision  •  Academic Team Lead
+    </text>
+
+    <!-- Tech Pills Line -->
+    <g transform="translate(0, 70)">
+      <rect x="-180" y="-14" width="360" height="24" rx="12" fill="rgba(0, 201, 255, 0.1)" stroke="rgba(0, 201, 255, 0.3)" stroke-width="1" />
+      <text class="badge-text" y="3" text-anchor="middle">⚡ REACT • NODE.js • PYTHON • MONGODB ⚡</text>
+    </g>
+  </g>
+
+  <!-- Animated-Style Wavy Bottom Edge -->
+  <path d="M 0,175 Q 300,215 600,185 T 1200,180 L 1200,220 L 0,220 Z" fill="url(#wave1)" />
+  <path d="M 0,188 Q 300,225 600,198 T 1200,195 L 1200,220 L 0,220 Z" fill="url(#wave2)" />
+</svg>

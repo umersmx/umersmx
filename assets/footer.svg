@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c9ff" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="footerWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9ff" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base fill -->
+  <rect width="1200" height="120" fill="#0d1117" />
+
+  <!-- Top Wave -->
+  <path d="M 0,35 Q 300,5 600,30 T 1200,25 L 1200,120 L 0,120 Z" fill="url(#footerWave)" />
+  <path d="M 0,50 Q 300,20 600,45 T 1200,40 L 1200,120 L 0,120 Z" fill="url(#footerBg)" />
+
+  <text x="600" y="95" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif" font-weight="600" font-size="14" fill="#94a3b8" letter-spacing="1.5">
+    DESIGNED &amp; BUILT BY MUHAMMAD UMER FAROOQ  •  2026
+  </text>
+</svg>
