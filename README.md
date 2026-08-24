@@ -2,11 +2,9 @@
   <img width="100%" src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/header.svg" alt="Muhammad Umer Farooq Header Banner" />
 </div>
 
-<br />
-
 <div align="center">
   <a href="https://umersmx.vercel.app/" target="_blank">
-    <img src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/portrait.svg" width="360" alt="Muhammad Umer Farooq Dot-Matrix Portrait" />
+    <img src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/portrait.svg" width="220" alt="Muhammad Umer Farooq Dot-Matrix Portrait" />
   </a>
 </div>
 
