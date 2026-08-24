@@ -222,8 +222,14 @@ const developer: DeveloperProfile = {
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117&timezone=Asia/Karachi" alt="GitHub Streak Stats" />
+    <img src="https://raw.githubusercontent.com/umersmx/umersmx/main/streak.svg" alt="GitHub Streak Stats" />
   </a>
+</div>
+
+<br />
+
+<div align="center">
+  <img width="100%" src="https://ghchart.rshah.org/00c9ff/umersmx" alt="GitHub Contributions Calendar" />
 </div>
 
 <br />
