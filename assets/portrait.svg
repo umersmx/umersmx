@@ -2,7 +2,7 @@
 <defs>
   <linearGradient id="scanGlow" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#00ffff" stop-opacity="0" />
-    <stop offset="50%" stop-color="#00ffff" stop-opacity="0.75" />
+    <stop offset="50%" stop-color="#00ffff" stop-opacity="0.8" />
     <stop offset="100%" stop-color="#00ffff" stop-opacity="0" />
   </linearGradient>
 </defs>
@@ -12,22 +12,22 @@
   0% {
     opacity: 0;
     transform: scale(0);
-    filter: brightness(3.5) drop-shadow(0 0 5px #00ffff);
+    filter: brightness(3.5) drop-shadow(0 0 6px #00ffff);
   }
-  30% {
+  35% {
     opacity: 1;
-    transform: scale(1.4);
-    filter: brightness(2.0) drop-shadow(0 0 3px #00ffff);
+    transform: scale(1.35);
+    filter: brightness(2.0) drop-shadow(0 0 4px #00ffff);
   }
-  60% {
-    opacity: 0.9;
-    transform: scale(0.95);
-    filter: brightness(1.25);
+  65% {
+    opacity: 0.92;
+    transform: scale(0.96);
+    filter: brightness(1.2);
   }
-  80% {
+  85% {
     opacity: 1;
-    transform: scale(1.05);
-    filter: brightness(1.1);
+    transform: scale(1.04);
+    filter: brightness(1.08);
   }
   100% {
     opacity: 1;
@@ -38,8 +38,8 @@
 
 @keyframes scanSweep {
   0% { transform: translateY(-80px); opacity: 0; }
-  5% { opacity: 0.9; }
-  92% { opacity: 0.9; }
+  4% { opacity: 0.95; }
+  94% { opacity: 0.95; }
   100% { transform: translateY(1080px); opacity: 0; }
 }
 
@@ -50,137 +50,137 @@
 
 .led-row {
   transform-origin: center;
-  animation: ledIgnite 1.0s cubic-bezier(0.2, 0.9, 0.3, 1.15) both;
+  animation: ledIgnite 1.8s cubic-bezier(0.16, 0.9, 0.3, 1.1) both;
 }
 
 .matrix-container {
-  animation: ambientPulse 5s ease-in-out infinite 3.8s;
+  animation: ambientPulse 5s ease-in-out infinite 7.2s;
 }
 
 .scan-beam {
-  animation: scanSweep 3.4s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  animation: scanSweep 6.5s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
 }
 
 .r0 { animation-delay: 0.000s; }
-.r1 { animation-delay: 0.027s; }
-.r2 { animation-delay: 0.053s; }
-.r3 { animation-delay: 0.080s; }
-.r4 { animation-delay: 0.107s; }
-.r5 { animation-delay: 0.133s; }
-.r6 { animation-delay: 0.160s; }
-.r7 { animation-delay: 0.187s; }
-.r8 { animation-delay: 0.213s; }
-.r9 { animation-delay: 0.240s; }
-.r10 { animation-delay: 0.267s; }
-.r11 { animation-delay: 0.293s; }
-.r12 { animation-delay: 0.320s; }
-.r13 { animation-delay: 0.347s; }
-.r14 { animation-delay: 0.373s; }
-.r15 { animation-delay: 0.400s; }
-.r16 { animation-delay: 0.427s; }
-.r17 { animation-delay: 0.453s; }
-.r18 { animation-delay: 0.480s; }
-.r19 { animation-delay: 0.507s; }
-.r20 { animation-delay: 0.533s; }
-.r21 { animation-delay: 0.560s; }
-.r22 { animation-delay: 0.587s; }
-.r23 { animation-delay: 0.613s; }
-.r24 { animation-delay: 0.640s; }
-.r25 { animation-delay: 0.667s; }
-.r26 { animation-delay: 0.693s; }
-.r27 { animation-delay: 0.720s; }
-.r28 { animation-delay: 0.747s; }
-.r29 { animation-delay: 0.773s; }
-.r30 { animation-delay: 0.800s; }
-.r31 { animation-delay: 0.827s; }
-.r32 { animation-delay: 0.853s; }
-.r33 { animation-delay: 0.880s; }
-.r34 { animation-delay: 0.907s; }
-.r35 { animation-delay: 0.933s; }
-.r36 { animation-delay: 0.960s; }
-.r37 { animation-delay: 0.987s; }
-.r38 { animation-delay: 1.013s; }
-.r39 { animation-delay: 1.040s; }
-.r40 { animation-delay: 1.067s; }
-.r41 { animation-delay: 1.093s; }
-.r42 { animation-delay: 1.120s; }
-.r43 { animation-delay: 1.147s; }
-.r44 { animation-delay: 1.173s; }
-.r45 { animation-delay: 1.200s; }
-.r46 { animation-delay: 1.227s; }
-.r47 { animation-delay: 1.253s; }
-.r48 { animation-delay: 1.280s; }
-.r49 { animation-delay: 1.307s; }
-.r50 { animation-delay: 1.333s; }
-.r51 { animation-delay: 1.360s; }
-.r52 { animation-delay: 1.387s; }
-.r53 { animation-delay: 1.413s; }
-.r54 { animation-delay: 1.440s; }
-.r55 { animation-delay: 1.467s; }
-.r56 { animation-delay: 1.493s; }
-.r57 { animation-delay: 1.520s; }
-.r58 { animation-delay: 1.547s; }
-.r59 { animation-delay: 1.573s; }
-.r60 { animation-delay: 1.600s; }
-.r61 { animation-delay: 1.627s; }
-.r62 { animation-delay: 1.653s; }
-.r63 { animation-delay: 1.680s; }
-.r64 { animation-delay: 1.707s; }
-.r65 { animation-delay: 1.733s; }
-.r66 { animation-delay: 1.760s; }
-.r67 { animation-delay: 1.787s; }
-.r68 { animation-delay: 1.813s; }
-.r69 { animation-delay: 1.840s; }
-.r70 { animation-delay: 1.867s; }
-.r71 { animation-delay: 1.893s; }
-.r72 { animation-delay: 1.920s; }
-.r73 { animation-delay: 1.947s; }
-.r74 { animation-delay: 1.973s; }
-.r75 { animation-delay: 2.000s; }
-.r76 { animation-delay: 2.027s; }
-.r77 { animation-delay: 2.053s; }
-.r78 { animation-delay: 2.080s; }
-.r79 { animation-delay: 2.107s; }
-.r80 { animation-delay: 2.133s; }
-.r81 { animation-delay: 2.160s; }
-.r82 { animation-delay: 2.187s; }
-.r83 { animation-delay: 2.213s; }
-.r84 { animation-delay: 2.240s; }
-.r85 { animation-delay: 2.267s; }
-.r86 { animation-delay: 2.293s; }
-.r87 { animation-delay: 2.320s; }
-.r88 { animation-delay: 2.347s; }
-.r89 { animation-delay: 2.373s; }
-.r90 { animation-delay: 2.400s; }
-.r91 { animation-delay: 2.427s; }
-.r92 { animation-delay: 2.453s; }
-.r93 { animation-delay: 2.480s; }
-.r94 { animation-delay: 2.507s; }
-.r95 { animation-delay: 2.533s; }
-.r96 { animation-delay: 2.560s; }
-.r97 { animation-delay: 2.587s; }
-.r98 { animation-delay: 2.613s; }
-.r99 { animation-delay: 2.640s; }
-.r100 { animation-delay: 2.667s; }
-.r101 { animation-delay: 2.693s; }
-.r102 { animation-delay: 2.720s; }
-.r103 { animation-delay: 2.747s; }
-.r104 { animation-delay: 2.773s; }
-.r105 { animation-delay: 2.800s; }
-.r106 { animation-delay: 2.827s; }
-.r107 { animation-delay: 2.853s; }
-.r108 { animation-delay: 2.880s; }
-.r109 { animation-delay: 2.907s; }
-.r110 { animation-delay: 2.933s; }
-.r111 { animation-delay: 2.960s; }
-.r112 { animation-delay: 2.987s; }
-.r113 { animation-delay: 3.013s; }
-.r114 { animation-delay: 3.040s; }
-.r115 { animation-delay: 3.067s; }
-.r116 { animation-delay: 3.093s; }
-.r117 { animation-delay: 3.120s; }
-.r118 { animation-delay: 3.147s; }
-.r119 { animation-delay: 3.173s; }
+.r1 { animation-delay: 0.050s; }
+.r2 { animation-delay: 0.100s; }
+.r3 { animation-delay: 0.150s; }
+.r4 { animation-delay: 0.200s; }
+.r5 { animation-delay: 0.250s; }
+.r6 { animation-delay: 0.300s; }
+.r7 { animation-delay: 0.350s; }
+.r8 { animation-delay: 0.400s; }
+.r9 { animation-delay: 0.450s; }
+.r10 { animation-delay: 0.500s; }
+.r11 { animation-delay: 0.550s; }
+.r12 { animation-delay: 0.600s; }
+.r13 { animation-delay: 0.650s; }
+.r14 { animation-delay: 0.700s; }
+.r15 { animation-delay: 0.750s; }
+.r16 { animation-delay: 0.800s; }
+.r17 { animation-delay: 0.850s; }
+.r18 { animation-delay: 0.900s; }
+.r19 { animation-delay: 0.950s; }
+.r20 { animation-delay: 1.000s; }
+.r21 { animation-delay: 1.050s; }
+.r22 { animation-delay: 1.100s; }
+.r23 { animation-delay: 1.150s; }
+.r24 { animation-delay: 1.200s; }
+.r25 { animation-delay: 1.250s; }
+.r26 { animation-delay: 1.300s; }
+.r27 { animation-delay: 1.350s; }
+.r28 { animation-delay: 1.400s; }
+.r29 { animation-delay: 1.450s; }
+.r30 { animation-delay: 1.500s; }
+.r31 { animation-delay: 1.550s; }
+.r32 { animation-delay: 1.600s; }
+.r33 { animation-delay: 1.650s; }
+.r34 { animation-delay: 1.700s; }
+.r35 { animation-delay: 1.750s; }
+.r36 { animation-delay: 1.800s; }
+.r37 { animation-delay: 1.850s; }
+.r38 { animation-delay: 1.900s; }
+.r39 { animation-delay: 1.950s; }
+.r40 { animation-delay: 2.000s; }
+.r41 { animation-delay: 2.050s; }
+.r42 { animation-delay: 2.100s; }
+.r43 { animation-delay: 2.150s; }
+.r44 { animation-delay: 2.200s; }
+.r45 { animation-delay: 2.250s; }
+.r46 { animation-delay: 2.300s; }
+.r47 { animation-delay: 2.350s; }
+.r48 { animation-delay: 2.400s; }
+.r49 { animation-delay: 2.450s; }
+.r50 { animation-delay: 2.500s; }
+.r51 { animation-delay: 2.550s; }
+.r52 { animation-delay: 2.600s; }
+.r53 { animation-delay: 2.650s; }
+.r54 { animation-delay: 2.700s; }
+.r55 { animation-delay: 2.750s; }
+.r56 { animation-delay: 2.800s; }
+.r57 { animation-delay: 2.850s; }
+.r58 { animation-delay: 2.900s; }
+.r59 { animation-delay: 2.950s; }
+.r60 { animation-delay: 3.000s; }
+.r61 { animation-delay: 3.050s; }
+.r62 { animation-delay: 3.100s; }
+.r63 { animation-delay: 3.150s; }
+.r64 { animation-delay: 3.200s; }
+.r65 { animation-delay: 3.250s; }
+.r66 { animation-delay: 3.300s; }
+.r67 { animation-delay: 3.350s; }
+.r68 { animation-delay: 3.400s; }
+.r69 { animation-delay: 3.450s; }
+.r70 { animation-delay: 3.500s; }
+.r71 { animation-delay: 3.550s; }
+.r72 { animation-delay: 3.600s; }
+.r73 { animation-delay: 3.650s; }
+.r74 { animation-delay: 3.700s; }
+.r75 { animation-delay: 3.750s; }
+.r76 { animation-delay: 3.800s; }
+.r77 { animation-delay: 3.850s; }
+.r78 { animation-delay: 3.900s; }
+.r79 { animation-delay: 3.950s; }
+.r80 { animation-delay: 4.000s; }
+.r81 { animation-delay: 4.050s; }
+.r82 { animation-delay: 4.100s; }
+.r83 { animation-delay: 4.150s; }
+.r84 { animation-delay: 4.200s; }
+.r85 { animation-delay: 4.250s; }
+.r86 { animation-delay: 4.300s; }
+.r87 { animation-delay: 4.350s; }
+.r88 { animation-delay: 4.400s; }
+.r89 { animation-delay: 4.450s; }
+.r90 { animation-delay: 4.500s; }
+.r91 { animation-delay: 4.550s; }
+.r92 { animation-delay: 4.600s; }
+.r93 { animation-delay: 4.650s; }
+.r94 { animation-delay: 4.700s; }
+.r95 { animation-delay: 4.750s; }
+.r96 { animation-delay: 4.800s; }
+.r97 { animation-delay: 4.850s; }
+.r98 { animation-delay: 4.900s; }
+.r99 { animation-delay: 4.950s; }
+.r100 { animation-delay: 5.000s; }
+.r101 { animation-delay: 5.050s; }
+.r102 { animation-delay: 5.100s; }
+.r103 { animation-delay: 5.150s; }
+.r104 { animation-delay: 5.200s; }
+.r105 { animation-delay: 5.250s; }
+.r106 { animation-delay: 5.300s; }
+.r107 { animation-delay: 5.350s; }
+.r108 { animation-delay: 5.400s; }
+.r109 { animation-delay: 5.450s; }
+.r110 { animation-delay: 5.500s; }
+.r111 { animation-delay: 5.550s; }
+.r112 { animation-delay: 5.600s; }
+.r113 { animation-delay: 5.650s; }
+.r114 { animation-delay: 5.700s; }
+.r115 { animation-delay: 5.750s; }
+.r116 { animation-delay: 5.800s; }
+.r117 { animation-delay: 5.850s; }
+.r118 { animation-delay: 5.900s; }
+.r119 { animation-delay: 5.950s; }
 </style>
 <g class="matrix-container">
 <g class="led-row r5"><circle cx="395.8" cy="45.8" r="0.84" fill="#0e0e15"/><circle cx="404.2" cy="45.8" r="0.99" fill="#212324"/><circle cx="412.5" cy="45.8" r="1.10" fill="#333335"/><circle cx="420.8" cy="45.8" r="1.06" fill="#343436"/><circle cx="429.2" cy="45.8" r="0.93" fill="#282c33"/></g>
@@ -297,5 +297,5 @@
 <g class="led-row r116"><circle cx="212.5" cy="970.8" r="1.27" fill="#7d5542"/><circle cx="220.8" cy="970.8" r="2.50" fill="#eb8d5d"/><circle cx="229.2" cy="970.8" r="2.69" fill="#ff9e70"/><circle cx="237.5" cy="970.8" r="1.46" fill="#5b382b"/><circle cx="245.8" cy="970.8" r="0.88" fill="#060b0b"/><circle cx="254.2" cy="970.8" r="1.03" fill="#1b1813"/><circle cx="262.5" cy="970.8" r="1.08" fill="#1d1c19"/><circle cx="270.8" cy="970.8" r="1.05" fill="#181815"/><circle cx="279.2" cy="970.8" r="0.81" fill="#010101"/><circle cx="287.5" cy="970.8" r="0.80" fill="#010001"/><circle cx="295.8" cy="970.8" r="0.81" fill="#000100"/><circle cx="304.2" cy="970.8" r="0.81" fill="#000101"/><circle cx="312.5" cy="970.8" r="0.81" fill="#000102"/><circle cx="320.8" cy="970.8" r="0.83" fill="#010304"/><circle cx="329.2" cy="970.8" r="0.87" fill="#050709"/><circle cx="337.5" cy="970.8" r="0.87" fill="#06070a"/><circle cx="345.8" cy="970.8" r="0.88" fill="#05080a"/><circle cx="354.2" cy="970.8" r="0.88" fill="#06070c"/><circle cx="362.5" cy="970.8" r="0.89" fill="#07080e"/><circle cx="370.8" cy="970.8" r="0.90" fill="#080a0f"/><circle cx="379.2" cy="970.8" r="0.92" fill="#0b0b11"/><circle cx="387.5" cy="970.8" r="0.93" fill="#0b0c13"/><circle cx="395.8" cy="970.8" r="0.94" fill="#0d0c14"/><circle cx="404.2" cy="970.8" r="1.02" fill="#16131c"/><circle cx="412.5" cy="970.8" r="1.06" fill="#16191f"/><circle cx="420.8" cy="970.8" r="0.99" fill="#111217"/><circle cx="429.2" cy="970.8" r="0.94" fill="#0d0d14"/><circle cx="437.5" cy="970.8" r="0.91" fill="#090a11"/><circle cx="445.8" cy="970.8" r="0.93" fill="#0b0c12"/><circle cx="454.2" cy="970.8" r="0.93" fill="#0b0c12"/><circle cx="462.5" cy="970.8" r="0.94" fill="#0c0d13"/><circle cx="470.8" cy="970.8" r="0.95" fill="#0e0e15"/><circle cx="479.2" cy="970.8" r="0.97" fill="#101015"/><circle cx="487.5" cy="970.8" r="0.98" fill="#0e1214"/><circle cx="495.8" cy="970.8" r="0.96" fill="#0d0f14"/><circle cx="504.2" cy="970.8" r="0.96" fill="#0f0f16"/><circle cx="512.5" cy="970.8" r="1.00" fill="#12131a"/><circle cx="520.8" cy="970.8" r="1.01" fill="#13141a"/><circle cx="529.2" cy="970.8" r="0.99" fill="#131119"/><circle cx="537.5" cy="970.8" r="1.02" fill="#13161a"/><circle cx="545.8" cy="970.8" r="1.03" fill="#15161b"/><circle cx="554.2" cy="970.8" r="1.01" fill="#13141a"/><circle cx="562.5" cy="970.8" r="1.03" fill="#14161b"/><circle cx="570.8" cy="970.8" r="1.00" fill="#131319"/><circle cx="579.2" cy="970.8" r="0.93" fill="#090e10"/><circle cx="587.5" cy="970.8" r="0.84" fill="#020505"/><circle cx="595.8" cy="970.8" r="0.80" fill="#000000"/><circle cx="604.2" cy="970.8" r="0.80" fill="#000000"/><circle cx="612.5" cy="970.8" r="0.84" fill="#030404"/><circle cx="620.8" cy="970.8" r="0.91" fill="#090b0d"/><circle cx="629.2" cy="970.8" r="0.89" fill="#08090a"/><circle cx="637.5" cy="970.8" r="0.83" fill="#020304"/><circle cx="645.8" cy="970.8" r="1.13" fill="#1e2026"/><circle cx="654.2" cy="970.8" r="1.52" fill="#414651"/><circle cx="662.5" cy="970.8" r="1.55" fill="#414954"/><circle cx="670.8" cy="970.8" r="1.74" fill="#565b65"/><circle cx="679.2" cy="970.8" r="0.87" fill="#04070a"/><circle cx="687.5" cy="970.8" r="0.80" fill="#000000"/><circle cx="695.8" cy="970.8" r="0.87" fill="#080606"/><circle cx="704.2" cy="970.8" r="1.30" fill="#412b1d"/><circle cx="712.5" cy="970.8" r="1.31" fill="#5f3e2c"/></g>
 <g class="led-row r117"><circle cx="212.5" cy="979.2" r="0.93" fill="#5a3e33"/><circle cx="220.8" cy="979.2" r="1.60" fill="#d88255"/><circle cx="229.2" cy="979.2" r="1.68" fill="#e9926a"/><circle cx="237.5" cy="979.2" r="0.92" fill="#271612"/><circle cx="245.8" cy="979.2" r="0.88" fill="#15150f"/><circle cx="254.2" cy="979.2" r="0.89" fill="#181510"/><circle cx="262.5" cy="979.2" r="0.88" fill="#121210"/><circle cx="270.8" cy="979.2" r="0.99" fill="#292925"/><circle cx="279.2" cy="979.2" r="0.86" fill="#0a0c0a"/><circle cx="287.5" cy="979.2" r="0.81" fill="#010103"/><circle cx="295.8" cy="979.2" r="0.82" fill="#030505"/><circle cx="304.2" cy="979.2" r="0.80" fill="#000000"/><circle cx="312.5" cy="979.2" r="0.80" fill="#000000"/><circle cx="320.8" cy="979.2" r="0.80" fill="#000000"/><circle cx="329.2" cy="979.2" r="0.80" fill="#000103"/><circle cx="337.5" cy="979.2" r="0.83" fill="#030707"/><circle cx="345.8" cy="979.2" r="0.82" fill="#010507"/><circle cx="354.2" cy="979.2" r="0.83" fill="#03050b"/><circle cx="362.5" cy="979.2" r="0.85" fill="#07090f"/><circle cx="370.8" cy="979.2" r="0.85" fill="#070b0f"/><circle cx="379.2" cy="979.2" r="0.87" fill="#090d13"/><circle cx="387.5" cy="979.2" r="0.87" fill="#0b0d15"/><circle cx="395.8" cy="979.2" r="0.89" fill="#111119"/><circle cx="404.2" cy="979.2" r="0.93" fill="#1b1721"/><circle cx="412.5" cy="979.2" r="0.91" fill="#111719"/><circle cx="420.8" cy="979.2" r="0.89" fill="#0f1113"/><circle cx="429.2" cy="979.2" r="0.86" fill="#0b0b13"/><circle cx="437.5" cy="979.2" r="0.85" fill="#07090f"/><circle cx="445.8" cy="979.2" r="0.86" fill="#0b0b11"/><circle cx="454.2" cy="979.2" r="0.86" fill="#0b0b11"/><circle cx="462.5" cy="979.2" r="0.87" fill="#0d0d13"/><circle cx="470.8" cy="979.2" r="0.88" fill="#0f0d15"/><circle cx="479.2" cy="979.2" r="0.88" fill="#0f0f15"/><circle cx="487.5" cy="979.2" r="0.87" fill="#0b0f0f"/><circle cx="495.8" cy="979.2" r="0.87" fill="#0b0d11"/><circle cx="504.2" cy="979.2" r="0.89" fill="#111119"/><circle cx="512.5" cy="979.2" r="0.90" fill="#131319"/><circle cx="520.8" cy="979.2" r="0.90" fill="#111319"/><circle cx="529.2" cy="979.2" r="0.89" fill="#110f17"/><circle cx="537.5" cy="979.2" r="0.90" fill="#0f1319"/><circle cx="545.8" cy="979.2" r="0.91" fill="#13151b"/><circle cx="554.2" cy="979.2" r="0.91" fill="#131519"/><circle cx="562.5" cy="979.2" r="0.91" fill="#13151b"/><circle cx="570.8" cy="979.2" r="0.87" fill="#0d0d11"/><circle cx="579.2" cy="979.2" r="0.81" fill="#010303"/><circle cx="587.5" cy="979.2" r="0.80" fill="#000000"/><circle cx="595.8" cy="979.2" r="0.80" fill="#000000"/><circle cx="604.2" cy="979.2" r="0.82" fill="#030505"/><circle cx="612.5" cy="979.2" r="0.88" fill="#0e1012"/><circle cx="620.8" cy="979.2" r="0.86" fill="#0c0c10"/><circle cx="629.2" cy="979.2" r="0.85" fill="#080a0c"/><circle cx="637.5" cy="979.2" r="0.84" fill="#060808"/><circle cx="645.8" cy="979.2" r="1.01" fill="#28282e"/><circle cx="654.2" cy="979.2" r="1.23" fill="#515359"/><circle cx="662.5" cy="979.2" r="1.30" fill="#5f6169"/><circle cx="670.8" cy="979.2" r="1.22" fill="#55555b"/><circle cx="679.2" cy="979.2" r="0.80" fill="#000000"/><circle cx="687.5" cy="979.2" r="0.83" fill="#060606"/><circle cx="695.8" cy="979.2" r="0.80" fill="#000000"/><circle cx="704.2" cy="979.2" r="0.80" fill="#000000"/><circle cx="712.5" cy="979.2" r="0.90" fill="#312823"/></g>
 </g>
-<rect class="scan-beam" x="0" y="0" width="1000.0" height="50" fill="url(#scanGlow)" pointer-events="none" />
+<rect class="scan-beam" x="0" y="0" width="1000.0" height="55" fill="url(#scanGlow)" pointer-events="none" />
 </svg>
