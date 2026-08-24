@@ -209,7 +209,7 @@
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=umersmx&theme=tokyonight&no-frame=true&margin-w=6&column=6" alt="GitHub Trophies" />
+  <img width="100%" src="https://raw.githubusercontent.com/umersmx/umersmx/main/assets/trophies.svg" alt="GitHub Trophies" />
 </div>
 
 <br />

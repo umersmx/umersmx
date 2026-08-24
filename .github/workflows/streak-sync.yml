@@ -1,4 +1,4 @@
-name: Sync GitHub Streak Stats
+name: Sync GitHub Streak & Trophies Stats
 
 on:
   schedule:
@@ -9,19 +9,20 @@ permissions:
   contents: write
 
 jobs:
-  update-streak:
+  update-stats:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Latest Streak Stats SVG
+      - name: Fetch Latest Streak Stats & Trophies SVGs
         run: |
-          curl -s -f "https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg || echo "Failed to fetch remote SVG, keeping cached version"
+          curl -s -f "https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg || echo "Failed to fetch remote streak SVG, keeping cached version"
+          curl -s -f "https://github-trophies.devomb.com/?username=umersmx&theme=tokyonight&no-frame=true&margin-w=6&column=6" -o assets/trophies.svg || echo "Failed to fetch remote trophies SVG, keeping cached version"
 
       - name: Commit and Push if Changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add streak.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(streak): auto-sync streak stats card" && git push)
+          git add streak.svg assets/trophies.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(stats): auto-sync streak and trophies stats cards" && git push)
