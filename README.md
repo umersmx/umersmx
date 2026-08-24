@@ -50,34 +50,17 @@
 
 ---
 
-## ⚡ About Me
+## ⚡ About Me — Character Sheet
 
-```bash
-╭─ 🔴 🟡 🟢 ──────────────────────────────────────────────────────────── umer@smx-dev: ~ ─╮
-│                                                                                        │
-│  $ whoami                                                                              │
-│  > Muhammad Umer Farooq                                                                │
-│  > Full-Stack MERN Developer & Academic Group Leader                                   │
-│                                                                                        │
-│  $ cat system/profile.json                                                             │
-│  {                                                                                     │
-│    "location": "Lahore, Pakistan 📍",                                                  │
-│    "education": "BSc Computer Science @ Superior University (Semester 5 🎓)",           │
-│    "leadership": "Academic Group & Technical Team Lead",                               │
-│    "primaryStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],   │
-│    "aiAndVision": ["MediaPipe Pose Landmarker", "OpenCV", "Generative AI APIs"],       │
-│    "openFor": [                                                                        │
-│      "Full-Stack / MERN Developer Roles & Internships",                                │
-│      "Freelance Full-Stack & AI Web Applications",                                     │
-│      "Open-Source Collaborations & Hackathons"                                         │
-│    ]                                                                                   │
-│  }                                                                                     │
-│                                                                                        │
-│  $ echo $STATUS                                                                        │
-│  > 🟢 Ready to build, collaborate & engineer high-impact scalable systems!              │
-│                                                                                        │
-╰────────────────────────────────────────────────────────────────────────────────────────╯
-```
+| 🎮 Attribute | 📊 Current Stat / Skill Level |
+| :--- | :--- |
+| **Character Class** | `Full-Stack Architect & AI Visionary` 🚀 |
+| **Player Level** | `Semester 5 @ Superior University (Academic Group Lead 🎓)` |
+| **Special Abilities** | 👁️ `Real-Time Pose Tracking (MediaPipe & OpenCV)`<br />⚡ `High-Performance MERN Architecture`<br />🛡️ `Agile Team Leadership & Sprint Delivery` |
+| **Active Quest** | `Engineering Intelligent Full-Stack SaaS & Securing MERN Roles` |
+| **Equipped Arsenal** | `React.js` • `Node.js` • `Express` • `MongoDB` • `Python` • `Tailwind CSS` • `Vite` |
+| **Guild / Location** | `Superior University, Lahore 📍` |
+| **Current Status** | 🟢 `Online & Open for Full-Stack Roles, Internships & Collaborations` |
 
 ---
 
