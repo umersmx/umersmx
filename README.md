@@ -242,12 +242,6 @@ const developer: DeveloperProfile = {
 <br />
 
 <div align="center">
-  <img width="100%" src="https://ghchart.rshah.org/00c9ff/umersmx" alt="GitHub Contributions Calendar" />
-</div>
-
-<br />
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-contribution-grid-snake.svg" />
