@@ -183,7 +183,9 @@ open_to:
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak Stats" />
+  </a>
 </p>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=umersmx&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" />
