@@ -248,6 +248,16 @@ const developer: DeveloperProfile = {
 <br />
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/umersmx/umersmx/output/github-contribution-grid-snake.svg" />
+    <img width="100%" alt="Muhammad Umer Farooq GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/umersmx/umersmx/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=umersmx&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </div>
 
