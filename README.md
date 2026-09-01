@@ -15,7 +15,7 @@
       <h3>👋 Hello, World! I'm <span style="color:#00C9FF;">Muhammad Umer Farooq</span></h3>
       <p>
         <a href="https://readme-typing-svg.demolab.com">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=00FF66&width=480&lines=Full-Stack+MERN+Developer+%F0%9F%9A%80;BSCS+%40+Superior+University+%F0%9F%8E%93;Academic+Group+%26+Tech+Lead+%F0%9F%A4%9D;Building+AI+%2B+Real-Time+CV+Apps+%F0%9F%94%A5;Open+for+Collaborations+%26+Roles+%E2%9C%85" alt="Typing SVG" />
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=00FF66&width=480&lines=Full-Stack+MERN+Developer+%F0%9F%9A%80;BSCS+%40+Superior+Univers[...]" alt="Typing Animation" />
         </a>
       </p>
       <p>
@@ -132,7 +132,7 @@
     <td width="50%" valign="top">
       <h3>🏋️ The AI Gym Bro — Real-Time Pose Tracker</h3>
       <p><b>React · Vite · MediaPipe · Python · OpenCV</b></p>
-      <p>Real-time computer vision fitness coach running entirely in the browser. Analyzes webcam posture, tracks biomechanics, counts exercise reps (squats, bicep curls, pushups), and alerts on form correctness.</p>
+      <p>Real-time computer vision fitness coach running entirely in the browser. Analyzes webcam posture, tracks biomechanics, counts exercise reps (squats, bicep curls, pushups), and alerts on form issues.</p>
       <p>
         <a href="https://github.com/umersmx/ai-gym-bro-web">
           <img src="https://img.shields.io/badge/Source_Code-View_Repo-00c9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
@@ -144,7 +144,7 @@
     <td width="50%" valign="top">
       <h3>🎓 SkillNest LMS — Full-Stack Learning System</h3>
       <p><b>React · Node.js · Express · MongoDB · Tailwind</b></p>
-      <p>Comprehensive Learning Management System featuring granular role-based authentication (Students, Instructors, Admins), course authoring, interactive quizzes, student progress analytics, and reviews.</p>
+      <p>Comprehensive Learning Management System featuring granular role-based authentication (Students, Instructors, Admins), course authoring, interactive quizzes, student progress analytics, and responsive design.</p>
       <p>
         <a href="https://github.com/umersmx/SKillNest-lms">
           <img src="https://img.shields.io/badge/Source_Code-View_Repo-00c9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
@@ -182,18 +182,18 @@
 
 <div align="center">
   <a href="https://github.com/umersmx/smx-ai">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=smx-ai&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="SMX AI Pin" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=smx-ai&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="SMX AI Repository" />
   </a>
   <a href="https://github.com/umersmx/ai-gym-bro-web">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=ai-gym-bro-web&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="AI Gym Bro Pin" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=ai-gym-bro-web&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="AI Gym Bro Repository" />
   </a>
 </div>
 <div align="center">
   <a href="https://github.com/umersmx/SKillNest-lms">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=SKillNest-lms&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="SkillNest LMS Pin" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=SKillNest-lms&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="SkillNest LMS Repository" />
   </a>
   <a href="https://github.com/umersmx/Modern-Residentia-Project">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=Modern-Residentia-Project&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="Modern Residentia Pin" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=umersmx&repo=Modern-Residentia-Project&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="Modern Residentia Repository" />
   </a>
 </div>
 
@@ -202,8 +202,8 @@
 ## 📊 GitHub Analytics & Activity
 
 <div align="center">
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=umersmx&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff&text_color=ffffff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=umersmx&layout=compact&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&text_color=ffffff&langs_count=6" alt="Top Languages" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=umersmx&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&icon_color=00c9ff" alt="GitHub Stats" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=umersmx&layout=compact&theme=react&hide_border=true&bg_color=0d1117&title_color=00c9ff&text_color=ffffff" alt="Top Languages" />
 </div>
 
 <br />
