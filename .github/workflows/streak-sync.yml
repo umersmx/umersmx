@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 19 * * *' # Runs daily at midnight PKT (19:00 UTC)
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -17,7 +20,7 @@ jobs:
 
       - name: Fetch Latest Streak Stats & Trophies SVGs
         run: |
-          curl -s -f "https://streak-stats.demolab.com?user=umersmx&theme=tokyonight&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg || echo "Failed to fetch remote streak SVG, keeping cached version"
+          curl -s -f "https://streak-stats.demolab.com?user=umersmx&theme=react&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg || echo "Failed to fetch remote streak SVG, keeping cached version"
           curl -s -f "https://github-trophies.devomb.com/?username=umersmx&theme=tokyonight&no-frame=true&margin-w=6&column=6" -o assets/trophies.svg || echo "Failed to fetch remote trophies SVG, keeping cached version"
 
       - name: Commit and Push if Changed

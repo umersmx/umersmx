@@ -216,7 +216,7 @@
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://raw.githubusercontent.com/umersmx/umersmx/main/streak.svg" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com?user=umersmx&theme=react&background=0d1117&hide_border=true&timezone=Asia/Karachi" alt="GitHub Streak Stats" />
   </a>
 </div>
 
@@ -233,7 +233,7 @@
 <br />
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=umersmx&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
+  <img width="100%" src="https://github-activity-graph.vercel.app/graph?username=umersmx&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" alt="Muhammad Umer Farooq Commits & Activity Graph" />
 </div>
 
 <br />
