@@ -1,8 +1,8 @@
-name: Sync GitHub Streak & Trophies Stats
+name: Sync GitHub Streak, Trophies & Activity Graph
 
 on:
   schedule:
-    - cron: '0 19 * * *' # Runs daily at midnight PKT (19:00 UTC)
+    - cron: '0 7,19 * * *' # Runs twice daily: 12:00 PM & 12:00 AM PKT (07:00 & 19:00 UTC)
   workflow_dispatch:
   push:
     branches:
@@ -18,14 +18,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Latest Streak Stats & Trophies SVGs
+      - name: Fetch Latest Streak Stats, Trophies & Activity Graph SVGs
         run: |
-          curl -s -f "https://streak-stats.demolab.com?user=umersmx&theme=react&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg || echo "Failed to fetch remote streak SVG, keeping cached version"
-          curl -s -f "https://github-trophies.devomb.com/?username=umersmx&theme=tokyonight&no-frame=true&margin-w=6&column=6" -o assets/trophies.svg || echo "Failed to fetch remote trophies SVG, keeping cached version"
+          # Fetch streak stats SVG
+          curl -s -f -A "Mozilla/5.0" "https://streak-stats.demolab.com?user=umersmx&theme=react&hide_border=true&background=0d1117&timezone=Asia/Karachi" -o streak.svg.tmp || echo "Failed to fetch remote streak SVG, keeping cached version"
+          if [ -s streak.svg.tmp ] && grep -q "<svg" streak.svg.tmp; then
+            mv streak.svg.tmp streak.svg
+          else
+            rm -f streak.svg.tmp
+          fi
+
+          # Fetch trophies SVG
+          curl -s -f -A "Mozilla/5.0" "https://github-trophies.devomb.com/?username=umersmx&theme=tokyonight&no-frame=true&margin-w=6&column=6" -o assets/trophies.svg.tmp || echo "Failed to fetch remote trophies SVG, keeping cached version"
+          if [ -s assets/trophies.svg.tmp ] && grep -q "<svg" assets/trophies.svg.tmp; then
+            mv assets/trophies.svg.tmp assets/trophies.svg
+          else
+            rm -f assets/trophies.svg.tmp
+          fi
+
+          # Fetch activity graph SVG
+          curl -s -f -A "Mozilla/5.0" "https://github-activity-graph.vercel.app/graph?username=umersmx&theme=react-dark&bg_color=0d1117&color=00c9ff&line=00c9ff&point=ffffff&area=true&hide_border=true" -o assets/activity-graph.svg.tmp || echo "Failed to fetch remote activity graph SVG, keeping cached version"
+          if [ -s assets/activity-graph.svg.tmp ] && grep -q "<svg" assets/activity-graph.svg.tmp; then
+            mv assets/activity-graph.svg.tmp assets/activity-graph.svg
+          else
+            rm -f assets/activity-graph.svg.tmp
+          fi
 
       - name: Commit and Push if Changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add streak.svg assets/trophies.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(stats): auto-sync streak and trophies stats cards" && git push)
+          git add streak.svg assets/trophies.svg assets/activity-graph.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(stats): auto-sync streak, trophies, and activity graph" && git push)
